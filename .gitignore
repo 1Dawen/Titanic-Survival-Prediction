@@ -1,0 +1,23 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# Competition datasets, outputs, and trained models
+data/raw/
+outputs/
+submission.csv
+*.cbm
+*.joblib
+*.pkl
+catboost_info/
+
+# Local credentials and OS files
+.env
+.env.*
+.DS_Store
+Thumbs.db
